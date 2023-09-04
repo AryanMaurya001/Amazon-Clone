@@ -1,0 +1,401 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+   
+}   
+body {
+     height: 3173px;
+     overflow-y: hidden;
+     /* background-color: black; */
+
+} 
+#navbar{
+    background-color: rgb(27,36,47);
+    position:fixed;
+    width: 100vw;
+    z-index: 4;
+}
+.logo_white{
+    width: 110px;
+    height: 35px;
+    margin: 20px 50px;
+    transform: scale(1.01);
+    filter: brightness(1.9);
+}
+#language{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: 15px;
+    position: relative;
+    float: right;
+    top: 33px;
+    right: 70px;
+    outline: none;
+}
+#language option{
+    background-color:rgba(19 ,27 ,36 , .85) ;
+    border: none;
+    color: rgb(216,219,222);
+    outline: none;
+}
+#EN{
+    color: rgb(216,219,222);
+    position: relative;
+    float: right;
+    top: 30px;
+    right: 110px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#LanLogo img{
+position: relative;
+float: right;
+right: 163px;
+top: 27px;
+filter: brightness(0.7);
+}
+
+#Sign_in{
+    background-color: transparent;
+    border: none;
+    color: rgb(216,219,222);
+    font-size: 17px;
+    position: relative;
+    float: right;
+    top: 30px;
+    right: -15px;
+ }
+#home img{
+    height: 100vh ;
+    width: 99vw;
+    margin: 0px;
+    z-index: 2;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 70px;
+    
+}
+/* #home{
+    /* overflow-y: hidden; 
+    
+}
+*/
+#homeText{
+    color: white;
+    /* border: 1px solid grey; */
+    position: relative;
+    width: 600px;
+    top: -540px;
+    margin-left: 50px;
+    z-index: 2;
+}
+.homeMainText{
+    margin-bottom: 35px;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #fff;
+   font-weight: 600;
+   font-family: 'Noto Sans', sans-serif;
+}
+.homeSubText{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#btn{
+    background-color: #0f79af;
+    color: white;
+    height: 25px;
+    width: 250px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    padding: 13px 20px;
+    margin-top: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+#living{
+    margin: 0px;
+    /* background-color: black; */
+    height: 482px;
+    z-index: 2;
+    position: relative;
+    top: -340px;
+     overflow-y: hidden;    
+}
+  #living::before{
+    content: "";
+    background : linear-gradient(to left , #000 40% , transparent 58%), url('Living-Room.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+} 
+#LivingText{
+    /* border:1px solid white; */
+    color: white;
+    width: 540px;
+    position: relative;
+    top:200px;
+    float: right;
+    z-index: 2;
+    right: 100px;
+}
+.LivingMainText{
+    font-size: 2.5rem;
+    /* text-align: ; */
+    color: #fff;
+   font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+.LivingSubText{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+   
+}
+#MB{
+    position: relative;
+    top: -400px;
+    height: 600px;
+    overflow-y: hidden;
+    background-color: black;
+    
+}
+#MB img {
+    position: relative;
+    right: 20px;
+    /* size: 200px; */
+    /* transform: scale(0.9); */
+
+}
+
+#MBText{
+    color: white;
+    /* border: 1px solid grey; */
+    position: relative;
+    width: 630px;
+    top: -540px;
+    margin-left: 50px;
+}
+.MBMainText{
+    margin-bottom: 35px;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #fff;
+   font-weight: 600;
+   font-family: 'Noto Sans', sans-serif;
+}
+.MBSubText{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#remote{
+    position: relative;
+    top: -400px;
+    height: 504px;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+#remoteText{
+    color: white;
+    /* border: 1px solid grey; */
+    position: relative;
+    float: right;
+    width: 630px;
+    top: -540px;
+    margin-left: 50px;
+}
+.remoteMainText{
+    margin-bottom: 35px;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #fff;
+   font-weight: 600;
+   font-family: 'Noto Sans', sans-serif;
+}
+.remoteSubText{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#devices{
+    display: flex;
+    position: relative;
+    top: -350px;
+    background-color: white;
+    height: 370px;
+}
+.PV_Benefits  {
+    position: relative;
+    left: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* border: 2px solid black; */
+}
+.PV_Benefits img {
+    /* border: 2px solid black; */
+    position: relative;
+    left: 70px;
+     width: 240px;
+}
+.train{
+    position: relative;
+    left: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* border: 2px solid black; */
+}
+.train img {
+    width: 240px;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 70px;
+}
+.mobile{
+    position: relative;
+    left: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 355px;
+}
+.mobile img {
+    width: 240px;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 70px;
+}
+
+.PvSubext{
+    /* border: 2px solid black; */
+    width: 400px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 27px;
+
+}
+.pvMainText{
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 2rem;
+   font-weight: 600;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.trainSubext{
+    /* border: 2px solid black; */
+    width: 400px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 21px;
+    line-height: 27px;
+
+}
+.trainMainText{
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 2rem;
+   font-weight: 600;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.mobileSubext{
+    /* border: 2px solid black; */
+    width: 400px;
+    text-align: center;
+    font-weight:lighter;
+    font-size: 21px;
+    line-height: 27px;
+
+}
+.mobileMainText{
+    text-align: center;
+    font-size: 2rem;
+   font-weight: 600;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+#cartoon{
+    position: relative;
+    top: -300px;
+    height: 500px;
+    overflow-y: hidden;
+}
+
+#cartoonText{
+    color: white;
+    /* border: 1px solid grey; */
+    position: relative;
+    width: 630px;
+    top: -540px;
+    margin-left: 50px;
+}
+.cartoonMainText{
+    margin-bottom: 35px;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #fff;
+   font-weight: 600;
+   font-family: 'Noto Sans', sans-serif;
+}
+.cartoonSubText{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#autro{
+    height: 125px;
+    position: relative;
+    bottom: 300px;
+    /* border: 10px solid black; */
+    background-color: rgb(34 ,34 , 34);
+
+}
+
+.bottom-logo{
+    position: relative;
+    left: 50vw;
+    top: 20px;
+}
+.links{
+    display: flex;
+    /* color: rgb(19,114,148); */
+    /* border: 1px solid white; */
+    width: 55vw;
+    position: relative;
+    left: 25vw;
+    top: 20px;
+}
+
+.links  a {
+    color: #0f79af;
+    text-decoration: none;
+    position: relative;
+    left: 4vw;
+    margin: 0px 5px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.copyright{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(150,177,150);
+    font-weight: 400;
+    /* border: 1px solid white; */
+    position: relative;
+    /* top: 1px; */
+    left: 60px;
+}
+    
